@@ -24,10 +24,15 @@ body{
     margin: 1rem 0;
 }
 
-
 /* Img */
 img {
     width: 100%;
+}
+
+/* Cads */
+.card {
+    border: 0;
+    border-radius: 0;
 }
 
 
@@ -47,9 +52,23 @@ img {
 
 
 /* Button */
+.btn {
+    font-weight: bold;
+}
+
 .ms-btn-blue {
     background-color: var(--primary-color);
     color: white;
+}
+
+.ms-btn-grey {
+    background-color: #d9dadc;
+    color: var(--primary-color);
+}
+
+.ms-btn-white {
+    background-color: white;
+    color: black;
 }
 
 
@@ -109,7 +128,7 @@ nav li .ms-img-container {
     font-size: .8rem;
 }
 
-.ms-ps5 .ms-text-wrapper {
+.ms-ps5 .row .ms-text-wrapper {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -118,8 +137,6 @@ nav li .ms-img-container {
 }
 
 .ms-ps5 .card{
-    border: 0;
-    border-radius: 0;
     text-align: center;
     height: 100%;
     opacity: 0.5;
@@ -142,7 +159,7 @@ nav li .ms-img-container {
     width: 50%;
 }
 
-/* New RElease */
+/* New Release */
 
 .ms-new-release {
     background-color: #1f1f1f;
@@ -153,8 +170,6 @@ nav li .ms-img-container {
 }
 
 .ms-new-release .card {
-    border: 0;
-    border-radius: 0;
     font-size: 1rem;
     background-color: transparent;
 }
@@ -162,3 +177,29 @@ nav li .ms-img-container {
 .ms-new-release .card img{
     border-radius: 20px;
 }
+
+/* PS4 */
+
+
+/* Plus */
+.ms-plus {
+    background-color: #bebcbb;
+}
+
+.ms-plus .ms-img-container {
+    width: 70%;
+}
+
+
+
+
+/* Now */
+.ms-now {
+    background-color: #161c3b;
+    color: white;
+}
+
+.ms-now .ms-img-container {
+    width: 70%;
+}
+
