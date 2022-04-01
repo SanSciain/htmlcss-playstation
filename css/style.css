@@ -1,0 +1,164 @@
+/* Common */
+
+:root {
+    --primary-color:#2d64e6;
+}
+
+
+html{
+    font-size: 100%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Title */
+.ms-title {
+    font-size: 2.5rem;
+}
+/* Sub-title */
+.ms-sub-title {
+    color: grey;
+    font-size: 1.3rem;
+    margin: 1rem 0;
+}
+
+
+/* Img */
+img {
+    width: 100%;
+}
+
+
+/* Jumbotrons */
+.ms-jbt {
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    background-size: cover;
+}
+/*Jumbotron Button*/
+.ms-btn-jbt {
+    color: white;
+    background-color: orangered;
+    margin-bottom: 5rem;
+}
+
+
+/* Button */
+.ms-btn-blue {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+
+
+
+/* Header */
+.ms-upper-header {
+    background-color: black;
+}
+
+.ms-upper-header .ms-img-container{
+    width: 100px;
+    padding: .5rem;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    vertical-align: middle;
+}
+
+.dropdown-toggle::after {
+    border: 0;
+    content: url(../img/chevron-down-solid.svg);
+    width: 10px;
+    vertical-align: middle;
+    margin-left: .3rem;
+}
+
+nav li .ms-img-container {
+    width: 25px;
+}
+
+/* Main */
+
+/* Main Jumbotron */
+.ms-main-jbt{
+    background-image: url("../img/jumbo-bg.png");
+}
+
+.ms-main-jbt .ms-text-wrapper {
+    margin-top: 20rem;
+
+}
+
+/* Below Jumbotron */
+.ms-below-jbt .ms-img-container {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/* Playstation 5 */
+.ms-ps5 .ms-above-title {
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+.ms-ps5 .ms-text-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.ms-ps5 .card{
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+    height: 100%;
+    opacity: 0.5;
+    margin: 0 1%;
+}
+
+.ms-ps5 .card.ms-active {
+    border-bottom: 2px solid var(--primary-color);
+    opacity: 1;
+}
+
+/* Secondary Jumbotron */
+.ms-secondary-jbt {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    
+}
+
+.ms-secondary-jbt .ms-img-container{
+    margin: 2rem 0;
+    width: 50%;
+}
+
+/* New RElease */
+
+.ms-new-release {
+    background-color: #1f1f1f;
+}
+
+.ms-new-release .container{
+    color: white;
+}
+
+.ms-new-release .card {
+    border: 0;
+    border-radius: 0;
+    font-size: 1rem;
+    background-color: transparent;
+}
+
+.ms-new-release .card img{
+    border-radius: 20px;
+}
