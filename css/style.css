@@ -121,6 +121,14 @@ img {
 
 
 /* Header */
+header {
+    position: sticky;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
 .ms-upper-header {
     background-color: black;
 }
@@ -128,6 +136,10 @@ img {
 .ms-upper-header .ms-img-container{
     width: 100px;
     padding: .5rem;
+}
+
+nav {
+    background-color: white;
 }
 
 
@@ -176,7 +188,7 @@ nav li .ms-img-container {
 }
 
 .ms-below-jbt .ms-img-container:hover {
-    transform: translateY(-30px);
+    transform: translateY(-20px);
     transition-duration: .5s;
 }
 
